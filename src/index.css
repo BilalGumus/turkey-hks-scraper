@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/inter/Inter.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 100;
+    src: url(./assets/fonts/inter/static/Inter-Thin.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 200;
+    src: url(./assets/fonts/inter/static/Inter-ExtraLight.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 300;
+    src: url(./assets/fonts/inter/static/Inter-Light.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 400;
+    src: url(./assets/fonts/inter/static/Inter-Regular.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 500;
+    src: url(./assets/fonts/inter/static/Inter-Medium.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 600;
+    src: url(./assets/fonts/inter/static/Inter-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 700;
+    src: url(./assets/fonts/inter/static/Inter-Bold.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 800;
+    src: url(./assets/fonts/inter/static/Inter-ExtraBold.ttf);
+  }
+  @font-face {
+    font-family: Inter;
+    font-weight: 900;
+    src: url(./assets/fonts/inter/static/Inter-Black.ttf);
+  }
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0.125rem;
+  background-color: rgb(0, 0, 0);
+}
+::-webkit-scrollbar {
+  width: 0.25rem;
+  border-radius: 0.125rem;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0.125rem;
+  background-color: gray;
+}
+
+:root {
+  color: #f6f6f6;
+  background-color: #111111;
+}

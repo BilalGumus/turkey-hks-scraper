@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/websocket": "^7.1.1",
+    "fastify": "^4.10.2",
+    "json2csv": "^5.0.7",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.4.1"
+  }
+}
